@@ -10,8 +10,15 @@
     <div id="wrap">
         <header>
             <h1 class="logo"></h1>
-            <div class="nav"></div>
+            <div class="icon_nav"></div>
         </header>
+        <div class="nav">
+            <ul>
+                <li>MY SKILLS</li>
+                <li>PORTFOLIO</li>
+                <li>CONTACT</li>
+            </ul>
+        </div>
         <div class="section">
             <h2>JO_HYESUN</h2>
             <h3>WEB DEVELOPER</h3>

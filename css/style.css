@@ -1,0 +1,40 @@
+*{margin: 0; padding: 0;box-sizing: border-box; font-family: 'PT Serif', serif;}
+body{background: url('../img/hip-square.png')}
+#wrap{position: fixed; top: 0; width: 100%; height: 100%}
+/*bg_deco*/
+.bg_deco{position: fixed; z-index: -999; top: 0}
+.bg_deco img:first-child{position: absolute; left: 0; bottom: 0;}
+.bg_deco img:last-child{position: absolute; right: 0; top: 0;}
+.content_bg{width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); position: absolute; top: 0; z-index: 5; display: none;}
+
+/*button style*/
+.basic_btn{border: 2px solid #fd5e28; margin: 0 auto; color: #fd5e28; display: block; font-weight: bold; margin-top: 10px; box-shadow: 3px 3px 3px #d2d2d2; border-radius: 3px; background: rgba(255, 255, 255, 0.3); position: relative; overflow: hidden;}
+.basic_btn a{width: auto; position: absolute; width: 100%; height: 100%;}
+.basic_btn:hover{background-color: rgba(225,225,225,0.0); transition: 1s}
+.basic_btn::before{content: ""; position: absolute; top: -200px; left: -99%; width: 150%; height: 120%; background: #fd5e28; transform: rotate(-90deg);transition: .5s;}
+.basic_btn a{display: block; width: 100%; height:100%; color: #f65e28; text-decoration: none; transition:.5s; position: relative;}
+.basic_btn:hover::before{transform: rotate(0deg); left: -5px; top: 0;}
+.basic_btn:hover a {color:#fff; z-index: 3;}
+
+/*header*/
+header{width: 70%; height: 150px; margin: 0 auto; position: absolute; left: 0; right: 0; z-index: 4}
+header h1{width: 210px; height: 122px; float: left;}
+/*header .logo{background: url('../img/logo.png')no-repeat; background-size: 50px 150px;;}*/
+header h1 span{display: block; width: 0px;height: 0px; border-top:90px solid #c52f00; border-bottom:32px solid transparent; border-right:30.55px solid #c52f00; border-left:30.55px solid #c52f00;}
+header .icon_nav_w{width: 51px; height: 122px; float: right; position:relative;}
+.icon_nav_w .menu_icon_nav{width: 51px; height: 32.4px; float: right; background: none; border: none; position: absolute; bottom: 0;}
+.menu_icon_nav i{display: block; width: 100%; height: 4.5px; background: #c52f00; margin-bottom: 4px}
+.menu_icon_nav i:last-child{margin: none}
+
+/*nav*/
+.nav{position: fixed; width: 285px; height: 100%; right: -285px; top:0; background: #c52f00; z-index: 5;}
+.close_icon_nav{width: 51px; height: 51px; float: right; background: none; border: none; position: relative; margin-top: 25%; right: 58px}
+.close_icon_nav i{display: block; width: 100%; height: 4.5px; background: #fff; position: absolute; transition:1s;}
+.nav ul{width: 100%;margin-top: 26vh;}
+.nav ul li{width: 100%; height: 70px; line-height: 70px; text-align: center; font-size: 1.8em; list-style: none; color: #fff;}
+.nav ul li a{color: #fff; text-decoration: none; display: block; width: 100%; height: 100%}
+.nav ul li a:hover{background: #fff; color: #c52f00}
+
+/*footer*/
+footer{clear: both; width: 100%; padding: 100px 0; position: relative; bottom: 0; right: 0;}
+footer > p{position: absolute; right: 0; top: 0; color: #ffb7b1}

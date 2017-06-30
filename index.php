@@ -1,32 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Web developer &#124; Johysun</title>
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/font.css">
+	<meta charset="UTF-8">
+	<title>Web developer &#124; Johysun</title>
+	<link rel="stylesheet" href="./css/font.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/index.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 </head>
+
 <body>
-    <div id="wrap">
-        <header>
-            <h1 class="logo"></h1>
-            <div class="icon_nav"></div>
-        </header>
-        <div class="nav">
-            <ul>
-                <li>MY SKILLS</li>
-                <li>PORTFOLIO</li>
-                <li>CONTACT</li>
-            </ul>
-        </div>
-        <div class="section">
-            <h2>JO_HYESUN</h2>
-            <h3>WEB DEVELOPER</h3>
-            <button>MY PORTFOLIO</button>
-        </div>
-        <footer>
-            <p>Copyright 2017 hyesun all rights reserved.</p>
-        </footer>
-    </div>
+	<div class="bg_deco">
+	<img src="./img/bg_img_left_bottom.png" alt="">
+	<img src="./img/bg_img_right_top.png" alt="">
+</div>
+<div id="wrap">
+	<?php include "./layout/header.php"?>
+
+		<div class="section">
+			<h2>JO_HYESUN</h2>
+			<h3>WEB DEVELOPER</h3>
+			<button class="basic_btn"><a href="./portfolio.php">MY PORTFOLIO</a></button>
+
+		</div>
+		<?php include "./layout/footer.php"?>
+	</div><!--wrap닫는태그-->
 </body>
+<script src="./js/script.js"></script>
 </html>

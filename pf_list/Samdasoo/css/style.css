@@ -1,0 +1,63 @@
+/*기본 설정
+주색: #73bae5 보조색: #def2ff
+text: #fff or #828282
+*/
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+*{margin: 0;padding: 0;box-sizing: border-box; font-family: 'Jeju Gothic', serif;}
+a{text-decoration: none;}
+body{background-color: #def2ff; position: relative}
+img{vertical-align: middle}
+
+.container{position: relative; max-width: 1920px; margin: 0 auto; width: 100%;}
+.scroll{width: 60px; height: 40px; background: #73bae5; position: absolute; bottom: 0px; left: 0; right: 0;z-index: 999; margin: 0 auto; text-align: center; line-height: 40px; color: #fff; font-size: 20px;}
+.on{background-color: #73bae5;}
+.scroll_top{width: 100%;}
+.bag{position: relative; z-index: 99999999;}
+.bag_color{background: rgba(0,0,0,0.6); width: 100%; height: 100%; position: absolute; left: 0; right: 0; z-index: 10000; display: block;}
+
+.bag .etcFix{position: fixed; top: 0; left: 0; z-index: 9999999; width: 100%; display: none;}
+    .bag .etcFix img:first-child{width: 45px; height: 55px; float: right; display: inline-block; position:fixed; top: 23px; right: 46px;}
+    .bag .etcFix .etc_text{width: 70%; margin: 0 auto;}
+        .bag .etcFix .etc_text h2{width:100%; color: #73bae5; border-bottom: 2px solid #73bae5; padding-bottom: 20px; margin: 0 auto; margin-bottom: 10px; padding-top: 100px;}
+        .bag .etcFix .etc_text h3{width:100%; color: #73bae5; padding-top: 20px; padding-bottom: 10px; margin: 0 auto;}
+        .bag .etcFix .etc_text p{width:100%; color: #fff; font-weight: 300; margin: 0 auto;}
+        .bag .etcFix .etc_text ul li{width:100%; color: #fff; font-weight: 300; margin: 0 auto; list-style: none;}
+            .bag .etcFix .etc_text ul li:before {content:"- ";}
+.etcFix_close{float: right; margin-top: 1.6%; display: inline-block; font-size: 45px; margin-right: 3%; cursor: pointer}
+
+/*feedback*/
+.provide{height: 100%; top: 0; color: #828282; z-index: 99999; background-color: rgba(255,255,255,0.9); position: fixed; right: 240px; display: none;}
+.provide form{padding: 40px 34px;}
+.provide form label{height: 32px; line-height: 32px}
+
+/*nav*/
+.nav{position: fixed; width: 240px; height: 100%; top: 0; color: #73bae5; z-index: 99999; background-color: #fff; border-bottom-left-radius: 20%; right:-240px;}
+
+	.nav ul{width: 100%; margin: 0 auto; zoom:1; list-style: none; position: relative;}
+		.nav .mainMenu{margin-top: 150px; padding-bottom: 20px; border-bottom: 1px solid rgba(115, 186, 229, 0.6);}
+		.nav .subMenu{ margin-top: 10px;}
+			.nav ul li{width: 100%; height: 45px; line-height: 45px; padding-left: 20px;}
+			.nav ul li a{font-size: 24px; font-weight: 900; position: relative; padding-bottom: 5px; cursor: pointer; color: #73bae5;}
+.nav .member{position: absolute; top: 3.5%; left: 10%;}
+.nav .member a{color: #73bae5; text-decoration: none;}
+.nav .member a:hover{font-weight: bold; text-decoration: underline}
+.nav .close{float: right; display: inline-block; position: absolute; font-size: 45px; z-index: 999999; top:3%; right: 22%; cursor: pointer}
+
+/*header    */
+header{padding-top: 20px; min-width: 100%; transition: 0.5s; position: absolute; z-index: 9999; top: 0px; left: 0;}
+	header h1{padding-left:20px; float:left; padding-top:20px;}
+		header h1 img{width: 170px; height: auto;}
+	header dl{float: right; padding-right: 40px;}
+		header dl dt{display: block; position: absolute; top: -99999em; left: 0;}
+		header dl dd{width: 58px; height: 58px; cursor: pointer; text-indent: -99999px; overflow: hidden; display: inline-block}
+	.menu_scroll{background: url('../img/header_scroll.png')no-repeat; background-size: cover;}
+	.menu_list{background: url('../img/header_menu.png'); background-size: cover;}
+        .menu_ani{width: 50%; float: left; height: 3px; background: #fff;}
+	.header_scroll{position: fixed; top: 0px; background-color: #73bae5; opacity: 0.6;}
+
+/*footer*/
+footer{text-align: center; font-size: 13px; line-height: 15px; color: #fff; background: #89c5ea; opacity: 0.8; clear: both; bottom: 0;}
+	footer .feedback{width: 100%; height: 90px;line-height: 90px;color: #fff; text-align: center; font-weight: bold; font-size: 16px; background-color: #73bae5;    }
+	footer .call{padding-top: 30px; width: 50%; margin: 0 auto; padding-bottom: 20px;}
+		footer .call li{width: 33.3333%; list-style:none; float: left;}
+			footer p{width: 100%; text-align: center; padding-bottom: 30px;}

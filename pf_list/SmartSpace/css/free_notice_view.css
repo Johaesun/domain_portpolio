@@ -1,0 +1,50 @@
+/* all */
+*{margin:0; padding:0; box-sizing: border-box;}
+body,html {color:#333;}
+a {text-decoration: none; color:#333;}
+li {list-style:none;}
+
+/* page */
+#wrap {width:100%; height:100%;}
+
+/* header */
+header {width:100%; height:100px; background:#fff;}
+.info_wrap {width:100%; height:30px; background: dodgerblue;position: fixed}
+.info_wrap a{color:#fff;}
+.info_wrap a:hover{color:#e2e2e2;}
+.info_wrap_center{width:900px; height:30px; margin:0 auto;}
+.info_wrap ul{height: 100%; float: right}
+.info_wrap ul li{float:left; color:#fff; margin-right: 16px;}
+.info_wrap ul li:nth-chlid(3){margin-right:0;}
+.header_wrap {width:100%; height:80px; margin:0 auto; position: fixed; margin-top:30px; left:0; right: 0; background: #fff;}
+.header_wrap .logo {width:100px; height:auto; float: left;}
+.logo img{width: 100%; height: 100%;}
+.header_wrap ul {float: right; height:100%;}
+.header_wrap ul li{float: left; width:120px; height:100%; text-align: center; line-height:80px;}
+.header_wrap ul li a {transition:all 0.3s; font-size:15px; width: 100%; height: 100%;}
+.header_wrap ul li a:hover {color:dodgerblue;}
+
+/*content*/
+.content{width: 100%; height: auto; min-height: 700px; margin-top:70px;}
+.content_wrap{width: 900px; height: 100%; position: relative; margin: 0 auto; border-top:1px solid dimgray; border-bottom: 1px solid dimgray;}
+.content_top{width: 100%; height: 60px; border-bottom: 1px solid dimgray;}
+.content_top p{text-align: center; font-size: 19px; height: 60px; line-height: 60px;}
+.content_top2{width: 100%; height: 34px; border-bottom: 1px solid dimgray;}
+.content_top2 li{display: inline; line-height: 34px;}
+.number{margin-left:20px;}
+.name{margin-left:20px;}
+.content_top2 li:last-child{float:right; margin-right: 20px;}
+.btn{float:right;margin-top:15px; margin-right:20px;}
+.content button{font-size: 17px; background: none; border: 1px solid dimgray; color: dimgray; width: 70px; height: 30px;}
+.content button:hover{background: dimgray; color:#fff;}
+.text{width: 90%; height: auto; min-height: 500px; margin:0 auto; margin-top:40px;}
+.text p{ color:dimgray;}
+
+/*footer*/
+footer{width: 100%; height: 100px; clear: both; background: #fff;}
+.footer_wrap{ width: 500px; margin: 0 auto; margin-top:20px;}
+.adress{width: 500px; height: 50px; margin:0 auto; text-align: center; line-height: 50px;}
+.adress li{float:left;}
+.adress li:after{content: "|" ; margin: 12px;}
+.adress li:last-child:after{content: none;}
+footer p{width: 400px; height: 40px; margin: 0 auto;}

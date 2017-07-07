@@ -1,0 +1,52 @@
+/* all */
+*{margin:0; padding:0; box-sizing: border-box;}
+body,html {color:#333;}
+a {text-decoration: none; color:#333;}
+li {list-style:none;}
+
+/* page */
+#wrap {width:100%; height:100%;}
+
+/* header */
+header {width:100%; height:100px; background:#fff;}
+.info_wrap {width:100%; height:30px; background: dodgerblue;position: fixed; z-index: 999;}
+.info_wrap a{color:#fff;}
+.info_wrap a:hover{color:#e2e2e2;}
+.info_wrap_center{width:900px; height:30px; margin:0 auto;}
+.info_wrap ul{height: 100%; float: right}
+.info_wrap ul li{float:left; color:#fff; margin-right: 16px;}
+.info_wrap ul li:nth-chlid(3){margin-right:0;}
+.header_wrap {width:100%; height:80px; margin:0 auto; position: fixed; margin-top:30px; left:0; right: 0; background: #fff; z-index: 9999;}
+.header_wrap .logo {width:100px; height:auto; float: left;}
+.logo img{width: 100%; height: 100%;}
+.header_wrap ul {float: right; height:100%;}
+.header_wrap ul li{float: left; width:120px; height:100%; text-align: center; line-height:80px;}
+.header_wrap ul li a {transition:all 0.3s; font-size:15px; width: 100%; height: 100%;}
+.header_wrap ul li a:hover {color:dodgerblue;}
+.block{width: 1000px; padding-top:-10px; margin: 0 auto;}
+/*content*/
+.content{width: 100%; height: 600px; margin-top:50px;}
+.content_wrap{width: 1000px; height: 100%; margin: 0 auto; position: relative;}
+.mainList_wrap{text-align: center; border:1px solid #000; width: 100%; height: 40px; line-height:40px; background: #3498db; color: #fff;}
+.mainList_wrap .number{width: 10%; float:left}
+.mainList_wrap .title{width: 60%; float:left;}
+.mainList_wrap .writer{width: 15%;float:left}
+.mainList_wrap .date{width: 15%; float:left;}
+.subList_wrap{text-align: center; border-bottom:1px solid #e8e8e8; width: 100%; height: 30px; line-height:30px; background: none; color: #fff;}
+.subList_wrap li{float:left; color:dimgray}
+.subList_wrap .sub_number{width: 10%;}
+.subList_wrap .sub_title{width: 50%;}
+.subList_wrap .sub_writer{width: 15%}
+.subList_wrap .sub_date{width: 15%;}
+.subList_wrap .sub_hit{width: 10%;}
+.content button{position: absolute; bottom: 0;right: 30px; font-size: 17px; background: none; border: 1px solid dimgray; color: dimgray; width: 70px; height: 30px;}
+.content button:hover{background: dimgray; color:#fff;}
+
+/*footer*/
+footer{width: 100%; height: 100px; clear: both; background: #fff;}
+.footer_wrap{ width: 500px; margin: 0 auto; margin-top:20px;}
+.adress{width: 500px; height: 50px; margin:0 auto; text-align: center; line-height: 50px;}
+.adress li{float:left;}
+.adress li:after{content: "|" ; margin: 12px;}
+.adress li:last-child:after{content: none;}
+footer p{width: 400px; height: 40px; margin: 0 auto;}

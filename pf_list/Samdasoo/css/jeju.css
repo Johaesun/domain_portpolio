@@ -1,0 +1,38 @@
+.title{font-size: 32px; color: #fff; padding:10px 0 20px; line-height: 32px;}
+.subText p{font-size: 15px; padding-bottom: 20px; color: #fff; font-weight: 400; position: relative;}
+.subText p:last-child{padding-top: 20px; display: block; line-height: 150%;}
+
+/*top_bg*/
+.top_bg{height: 580px; width: 100%; position: relative; background: url('../img/img1.png')no-repeat center 0px fixed; text-align: center;position: relative}
+.top_bgOpacity{background: #fff;width: 100%; height: 100%; background-color:rgba(149, 180, 195, 0.5)}
+.top_bg .top_text{position: absolute; width: 100%; padding-top: 100px; margin-top: 130px; color: #fff;}
+.top_bg h2{font-size: 55px; line-height: 70px; color: #fff; padding-bottom: 10px; border-bottom:5px solid rgba(255,255,255,0.2); margin-bottom: 0px; font-weight: 900; display: inline-block;}
+.top_bg p{padding-top: 15px; font-size: 20px; display: block; }
+
+/*box01*/
+.box01{width: 100%; text-align: center; padding: 40px 0; background-color: #def2ff;}
+.box01 .textBox{color: #666}
+.box01 .title{margin-top: 10px;}
+.box01 p{line-height:18.5px; color: #666}
+
+/*box02*/
+.box02{width: 100%; height: 500px; text-align: center; position: relative; background: url('../img/img2.jpg') no-repeat center 0px fixed; color: }
+.box02 .title{padding-top: 80px;}
+.box02_bg{background: #fff; width: 100%; height: 100%; background-color:rgba(149, 180, 195, 0.5); position: relative; z-index: 100;}
+.box02 .box02_icon {width: 600px; list-style: none; margin: 0 auto; }
+.box02 .box02_icon li{width: 200px; float: left;}
+.box02 .box02_icon li .iconImg1,.iconImg2,.iconImg3{width: 85px; height: 85px; border: 2px solid #fff; margin: 0 auto; border-radius: 50%;}
+.iconImg1{background: url('../img/tree.png')no-repeat; background-size: contain}
+.iconImg2{background: url('../img/rain.png')no-repeat; background-size: cover}
+.iconImg3{background: url('../img/stones.png')no-repeat; background-size: cover}
+.box02 .icon_text{height: 140px;color: #fff; font-size: 14px; line-height: 18px; float: left; text-align: center; width: 100%; margin-top: 10px;}
+.box02 .icon_text p:first-child{font-size: 17px; padding-bottom: 10px; margin-top: 10px;}
+
+/*box03*/
+.box03{width: 100%; height: 456px;}
+.box03 ul{zoom:1; width: 100%; height: 100%;}
+.box03 ul li{width: 50%; height: 100%; float: left; list-style: none; }
+.box03 ul li:first-child{background: url('../img/instagram_icon.png') no-repeat center; background-size: 70%;}
+.box03 ul li:last-child{background: url('../img/facebook_icon.png') no-repeat center; background-size: 70%;}
+.box03 ul li a{width: 100%; height: 100%; background-color: #fff; opacity: 0.3; display: block;}
+.box03 ul li a:hover{opacity: 0;}

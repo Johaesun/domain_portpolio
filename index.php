@@ -12,20 +12,23 @@
 
 <body>
 	<div class="bg_deco">
-	<img src="./img/bg_img_left_bottom.png" alt="">
-	<img src="./img/bg_img_right_top.png" alt="">
-</div>
-<div id="wrap">
-	<?php include "./layout/header.php"?>
+		<img src="./img/bg_img_left_bottom.png" alt="">
+		<img src="./img/bg_img_right_top.png" alt="">
+	</div>
+	<div id="wrap">
+		<?php include "./layout/header.php"?>
 
 		<div class="section">
 			<h2>JO_HYESUN</h2>
 			<h3>WEB DEVELOPER</h3>
-			<button class="basic_btn"><a href="./portfolio.php">MY PORTFOLIO</a></button>
-
+			<button class="basic_btn_r">
+				<a href="./portfolio.php">MY PORTFOLIO</a>
+			</button>
 		</div>
 		<?php include "./layout/footer.php"?>
-	</div><!--wrap닫는태그-->
+	</div>
+	<!--wrap닫는태그-->
 </body>
 <script src="./js/script.js"></script>
+
 </html>

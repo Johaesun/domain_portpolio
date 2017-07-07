@@ -1,0 +1,68 @@
+/* all */
+*{margin:0; padding:0; box-sizing: border-box;}
+body,html {color:#333;}
+a {text-decoration: none; color:#333;}
+li {list-style:none;}
+
+/* page */
+#wrap {width:100%; height:100%;}
+
+/*header*/
+header {width:100%; height:100px; background:#fff;}
+.info_wrap {width:100%; height:30px; background: dodgerblue;position: fixed; z-index: 999;}
+.info_wrap a{color:#fff;}
+.info_wrap a:hover{color:#e2e2e2;}
+.info_wrap_center{width:900px; height:30px; margin:0 auto;}
+.info_wrap ul{height: 100%; float: right}
+.info_wrap ul li{float:left; color:#fff; margin-right: 16px;}
+.info_wrap ul li:nth-chlid(3){margin-right:0;}
+.header_wrap {width:100%; height:80px; margin:0 auto; position: fixed; margin-top:30px; left:0; right: 0; background: #fff; z-index: 9999;}
+.header_wrap .logo {width:100px; height:auto; float: left;}
+.logo img{width: 100%; height: 100%;}
+.header_wrap ul {float: right; height:100%;}
+.header_wrap ul li{float: left; width:120px; height:100%; text-align: center; line-height:80px;}
+.header_wrap ul li a {transition:all 0.3s; font-size:15px; width: 100%; height: 100%;}
+.header_wrap ul li a:hover {color:dodgerblue;}
+.block{width: 1000px; padding-top:-10px; margin: 0 auto;}
+
+/*banner*/
+.banner{width: 100%; height: 171px; margin-top:16px; overflow: hidden;}
+.banner img{width: 100%; height: auto;}
+
+/*section*/
+section{width: 1000px; margin: 0 auto;}
+.intro_list{width: 160px; height: 500px; float:left;}
+.intro_list h2{border-bottom: 1px solid dodgerblue; height: 82px;}
+h2{ height: 70px; text-align: left; line-height: 80px; margin-bottom: 10px; }
+.intro_list ul{width: 100%; height: 300px;}
+.intro_list ul li{width: 156px; height: 46px; text-align: left; line-height: 46px; border-bottom: 1px solid #e8e8e8;}
+.intro_box{float: left;float: left; padding-left:40px; width: 750px;}
+.intro_box h2{border-bottom:1px solid #e8e8e8; height: 80px;}
+#write{margin-top:50px;}
+#lol{width:710px; height: 770px; }
+#btn{position: absolute; margin-left:615px;margin-top:15px;}
+/*gallery_wrap*/
+.gallery_wrap{width:710px; height: 722px; }
+.gallery_on{width: 150px; height: 165px; border:1px solid green; float:left; margin: 0px 13px; margin-bottom: 20px;}
+.gallery_on li{font-size: 0.9em;  text-align: center;}
+.gallery_on li:first-child{width: 148px; height: 100px; border:1px solid green;}
+.gallery_on li:first-child img{width: 100%; height: 100%}
+.gallery_on li:nth-child(2){font-weight: bold; font-size: 0.95em;}
+button{font-size: 17px; background: none; border: 1px solid dimgray; color: dimgray; width: 70px; height: 30px;}
+button:hover{background: dimgray; color:#fff;}
+.paging {text-align: center;}
+.paging li {display: inline-block; height: 20px; margin: 0 5px; padding: 0 5px; border: 1px solid #666; background: #eee; line-height: 21px;}
+.paging li.current,
+.paging li:hover {background: #666;}
+.paging li.current,
+.paging li:hover a { color: #ddd;}
+
+
+/*footer*/
+footer{width: 100%; height: 200px; clear: both; background: #fff; margin-top:0px; border-top:1px solid #e8e8e8;}
+.footer_wrap{ width: 500px; margin: 0 auto; margin-top:20px;}
+.adress{width: 500px; height: 50px; margin:0 auto; text-align: center; line-height: 50px;}
+.adress li{float:left;}
+.adress li:after{content: "|" ; margin: 12px;}
+.adress li:last-child:after{content: none;}
+footer p{width: 400px; height: 40px; margin: 0 auto;}

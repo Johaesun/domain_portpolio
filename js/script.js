@@ -28,16 +28,6 @@ $(".menu_icon_nav").click(function () { //menu icon click
 	}, 300);
 });
 
-$(".menu_icon_nav").mouseover(function () {
-	$(".menu_icon_nav i").css({
-		"background": "#fd5e28"
-	});
-}).mouseleave(function () {
-	$(".menu_icon_nav i").css({
-		"background": "#c52f00"
-	});
-});
-
 $(".close_icon_nav").click(function () { //close icon click
 	clear();
 	$('.nav').animate({
@@ -47,6 +37,16 @@ $(".close_icon_nav").click(function () { //close icon click
 		"height": "4.5px",
 		"margin-bottom": "4px",
 		"opacity": "1"
+	});
+});
+
+$(".menu_icon_nav").mouseover(function () {	// menu hover
+	$(".menu_icon_nav i").css({
+		"background": "#fd5e28"
+	});
+}).mouseleave(function () {
+	$(".menu_icon_nav i").css({
+		"background": "#c52f00"
 	});
 });
 
@@ -70,6 +70,9 @@ function content_bg_on(){
 	$(".content_bg").css({
 		"display" : "block"
 	});
+	$(".contact").css({
+		"display" : "block"
+	});
 }
 
 /*content_bg*/
@@ -77,4 +80,15 @@ function content_bg_close(){
 	$(".content_bg").css({
 		"display" : "none"
 	});
+	$(".contact").css({
+		"display" : "none"
+	});
 }
+
+$(".basic_btn_p").click(function(){ //contact등장!
+	content_bg_on();
+});
+
+$(".contact_close").click(function(){
+	content_bg_close();
+});

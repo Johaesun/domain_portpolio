@@ -1,15 +1,20 @@
 /*skills_Girls*/
-.skills_Girls{position: absolute; padding-left: 25%; bottom: 0;}
+.skills_Girls{position: absolute; padding-left: 23%; padding-bottom: 2.2%; bottom: 0;}
 /*content*/
 .content {width: 50%; height: 100%; background: rgba(255, 194, 176, 0.5); float: right; position: absolute; top: 0; right: 0;  overflow-y: scroll}
-	.content .content_area{width: 100%; padding-top: 0%; padding-bottom: 1%; padding-left: 10%; padding-right: 30%}
-		.content_area .content_h2{font-size: 1.3em; line-height: 3.1em; letter-spacing: 0.1em; color:#250900}
+	.content .content_area{width: 100%; padding-top: 0%; padding-bottom: 1%; padding-left: 10%; padding-right: 36%}
+		.content_area .content_h3{font-size: 1.3em; line-height: 3.1em; letter-spacing: 0.1em; color:#250900}
 		.content_area ul{width: 100%; height: 100%}
 			.content_area ul li{width: 10vh; height: 10vh; background: url('../img/skills_li_bg.png')no-repeat; background-size: cover; list-style: none; float: left; margin:5px}
 				.content_area ul li p{width: 100%; height: 100%; line-height: 10vh; text-align: center; font-size: 0.8em; font-weight: bold; font-family: "Nanum Gothic", sans-serif; color: #311106; background-color: rgba(197,49,0,0.1); border-radius: 50%}
-					.content_area ul li p:hover{background-color: transparent;}
-	.content .content_text{margin-top: 11vh;}
+					.content_area ul li p:hover{background-color: transparent; border: 1px solid #c52f00;}
+	.content .content_text{margin-top: 9vh;}
 			.content_text > p{font-family: "Nanum Gothic", sans-serif; font-size: 0.82em; line-height: 1.6em; letter-spacing: 0.1em; padding-bottom: 1.2em ; color: #311106}
 	.content .centent_skills{clear: both;}
 	.content .content_btn{clear: both; padding: 10%;}
-		.content_btn button{position: absolute; left: 0; padding: 2% 4%; margin-left: 10%;}
+
+/*max-width 992*/
+@media (max-width: 992px){
+	.content{width:100%}
+	.content .content_text{margin-top: 15vh}
+}

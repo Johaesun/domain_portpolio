@@ -1,0 +1,45 @@
+.btn_news_close{position: fixed; right: 2.3%; width: 45px; height: 45px; font-size: 45px; top: 2.8%; z-index: 99999; color: #73bae5; display: none;}
+.button{width: 65px; height: 28px; border: 3px solid rgba(225,225,225,0.5); border-radius: 8%; background: rgba(154,206,238,0.8); color: #fff;}
+
+/*top_bg*/
+.top_bg{height: 580px; width: 100%; position: relative; background: url('../img/thanksamda1.jpg')no-repeat center 0px fixed; text-align: center;position: relative}
+.top_bgOpacity{background: #fff;width: 100%; height: 100%; background-color:rgba(149, 180, 195, 0.5)}
+.top_bg .top_text{position: absolute; width: 100%; padding-top: 100px; margin-top: 130px; color: #fff;}
+.top_bg h2{font-size: 55px; line-height: 70px; color: #fff; padding-bottom: 10px; border-bottom:5px solid rgba(255,255,255,0.2); margin-bottom: 0px; font-weight: 900; display: inline-block;}
+.top_bg p{padding-top: 15px; font-size: 20px; display: block; }
+
+/*news_form*/
+.news_form{position: fixed; top: 15%; left: 0; z-index: 9999999; width: 60%; display: none; background: rgba(255, 255, 255,0.7); height: 700px; right: 0; margin: 0 auto; border-radius: 10%; color: #444}
+.news_form form{margin-top: 50px;}
+.news_form table{margin: 0 auto; height: 450px;}
+.news_form table tr{height: 30px;}
+.news_form table tr td input{width: 250px;}
+.news_form table tr td textarea{width: 450px; height: 360px;}
+.btn_wrap{width: 65%; margin: 0 auto; margin-top: 20px;}
+.btn_wrap input{float: right;}
+
+/*notice*/
+.content{padding: 30px 0px;}
+.content > .btn_wrap{width: 90%; margin-bottom: 80px;}
+.content > .btn_wrap > button{float: right;}
+.notice{width: 90%; margin: 0 auto; text-align: center; position: relative; background-color: rgba(255,255,255,0.6)}
+.notice > li{list-style: none; width: 100%; display: block; height: 72px; position: relative;}
+.notice > li:hover{font-weight: bold}
+.notice li>p{float: left; width: 15%; font-size: 14px; padding: 20px 0px;}
+.notice li>P:first-child{font-size: 1.2em; border-top: 2px solid #73bae5; position: relative; top:-1px; font-weight: bold;}
+.notice li>dl{width: 85%; padding-left: 20px; padding-right:15px; float: left;}
+.notice li>dl>p{font-size: 1.22em; padding-top: 20px; line-height: 15px;}
+.notice li>dl>dd{font-size: 0.8em;}
+.notice li > span{width: 30px; height: 30px; background-size: 100%; top: 20%; right: 20px; position: absolute; display: inline-block; background: url("../img/news_scroll.png")no-repeat center; background-size: cover;}
+.content_box{width: 100%; background: #fff; transition: 0.5s; -webkit-transition:0.5s; overflow: hidden; padding: 0px; height: 0px;}
+.content_box .tt{font-size: 1.8em; padding-top: 20px;}
+.content_box .st{font-size: 0.9em; color: #858585; padding-top: 3px;}
+.btn_edit, .btn_del{border: none; background: none; color: #88c5ea; margin-right: 5px; font-size: 0.9em;}
+.btn_edit:hover{border-bottom: 1px solid #88c5ea;}
+.btn_del:hover{border-bottom: 1px solid #88c5ea;}
+/*.box_off{display: none; padding: 0px; margin: 0; overflow: hidden;}*/
+.click_off{overflow: hidden; padding: 0px; margin: 0px;}
+.cB_wrap{width: 100%; padding: 0px 20px; zoom:1; text-align: left; position: relative;}
+.cB_wrap p:last-child{line-height: 70px;}
+.close_btn{width: 30px;height: 30px; background-size: 100%; top: -20px;   right: 20px; background: url('../img/news_close.png')no-repeat center; position:absolute;}
+.cB_notice{text-align:left; padding-top: 20px;}

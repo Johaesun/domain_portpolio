@@ -1,0 +1,53 @@
+/*top_bg*/
+.top_bg{height: 500px;}
+.top_bg video{min-width: 100%; min-height: 100%; width: auto; height: auto; transform: translate(-50% , 0%);left: 50%; position: fixed; text-align: center;position: fixed; z-index: -9999}
+.top_bg .top_text{position: absolute; width: 100%; padding-top: 100px; margin-top: 130px; color: #fff; text-align: center;}
+.top_bg h2{font-size: 55px; line-height: 70px; color: #fff; padding-bottom: 10px; border-bottom:5px solid rgba(255,255,255,0.2); margin-bottom: 0px; font-weight: 900; display: inline-block;}
+.top_bg p{padding-top: 15px; font-size: 20px; display: block;}
+
+.angleArea{width: 100%; height: auto;}
+.wrap > div{background-size: cover}
+.container_carrer{position: relative; max-width: 1920px; width: 100%;}
+
+/*box01*/
+.box01{padding: 616px 0px; background: url('../img/content_bg.png')no-repeat center; position: relative; margin-top: -220px; color: #828282; }
+.box01_wrap{position: absolute; width: 70%; top: 300px; margin: 0 auto; left: 0px; right: 0px;}
+    .box01 .bottle_img{width: 200px; float: left;}
+        .box01 .bottle_img li{width: 100%; height: auto; margin: 0 auto; overflow: hidden; padding:38% 3.333%; border: 1px solid #fff;}
+            .box01 .bottle_img li:first-child{background: url('../img/insta1.jpg')no-repeat center; background-size: cover; border-radius: 20% 0% 0% 00% ;}
+            .box01 .bottle_img li:last-child{background: url('../img/insta2.jpg')no-repeat center; background-size: cover; border-radius: 0% 0% 20% 0% ;}
+    .box01_text{min-width: 200px; margin: 0 auto; float: left; padding-left: 20px}
+        .box01_text h2{font-size: 28px;line-height: 32px; margin: 0 auto; border-left: 3px solid #73bae5; padding-left: 10px; margin-bottom: 10px}
+        .box01_text li{list-style: none; width: 100%; height: 180px; float: left;}
+            .box01_text li p{line-height: 27px; height: 27px; text-align: left;}
+/*.plus_text{text-align: center; margin: 0 auto; display: block; height: 300px; line-height: 300px; width: 80%;}
+.bottle{width: 10px; height: 10px; position: absolute; left: 0px; right: 0px;}*/
+
+/*box02*/
+.box02{ height: 936px; margin-top: -412px; color: #828282;}
+.box02>h3{float: right; margin-top: 107px; margin-right: 117px; font-size: 30px;}
+.text_box{min-width: 500px; float: left; margin-top: 200px; position: absolute; left: 4%; border-radius: 0px 40px 0px 0px; background-color: rgba(255,255,255,0.2); padding: 70px 0px; color: #fff;}
+.text_box p{font-size: 15px; line-height: 30px; padding-top:8px; font-weight: 300; font-size: 15px; opacity: 0.8}
+.text_box p:last-child{padding-bottom: 0px;border-top-right-radius: }
+
+/*box03*/
+.box03{background: url('../img/careerbox3.png')no-repeat center; padding:571px 0px; margin-top: -526px; background-size: cover; color: #828282;}
+.career {float: right; padding-right: 10%; margin-top: 60px;}
+.career li{height: 50px; line-height: 50px; list-style: none; text-align: right;}
+.career li:last-child{margin-left: 35px; width: 100%}
+.career li img{width: 40px; height: 40px; border-radius: 50%; margin-right: 5px; float: left;}
+.career li p{display:inline; font-size: 17px; float: left;}
+
+/*box04*/
+.box04{background: url('../img/careerbox4.png')no-repeat center; padding:571px 0px; margin-top: -551px; background-size: cover; color: #828282;}
+.box04_wrap{position: absolute; top: 30%; margin: 0 auto; left: 0; right: 0; width: 70%; }
+.box04_wrap>img:first-child{width: 10%; float: left; margin-right: 5%;}
+.box04_text{min-width: 200px; margin: 0 auto; float: left; padding-left: 20px}
+.box04_text > h2{font-size: 28px;line-height: 32px; margin: 0 auto; border-left: 3px solid #73bae5; padding-left: 10px; margin-bottom: 10px; font-weight: 110}
+.box04_text p{line-height: 27px; height: 27px; text-align: left;}
+.box04_subtext {margin-top: 33px}
+.box04_subtext p{font-size: 0.8em}
+.box04_subtext span{font-size: 0.8em; font-weight: bold}
+
+/*footer*/
+.container:last-child{margin-top: -185px;}

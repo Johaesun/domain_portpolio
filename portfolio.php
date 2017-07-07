@@ -1,6 +1,6 @@
 <?php
 include "./db/db.php";
-$sql = "select * from hyesun.pf";
+$sql = "select * from hyesun.pf where open = 'Y'";
 $se = $pdo->prepare($sql);
 $se->execute();
 $result = $se->fetchAll();
@@ -28,18 +28,52 @@ $result = $se->fetchAll();
 					?>
 					<li>
 						<div class="content">
+							<img src="./img/<?=$row['pf_img']?>.jpg" alt="사이트 이미지">
+							<p class="content_img">
+								<?=$row['pf_img']?>
+							</p>
 							<div class="content_text">
-								<h3>
+								<h3 class="content_name">
 									<?=$row['pf_name']?>
 								</h3>
-								<p>
+								<p class="content_year">
 									<?=$date_cut?>
 								</p>
 							</div>
+							<div class="content_explanation kr">
+								<?=$row['pf_explanation']?>
+							</div>
 						</div>
+						<!--content 닫는태그-->
 					</li>
 					<?php }?>
 				</ul>
+			</div>
+			<div class="pf_up">
+				<div class="pf_img"></div>
+				<div class="pf_contents">
+					<ul>
+						<li>
+							<h2 class="pf_tt">
+							</h2>
+							<a href="./pf_list/API/size.html" class="a_link">
+								<p>&raquo;Click the link to go.</p>
+							</a>
+						</li>
+						<li>
+							<p>
+								Year : <span class="pf_year"></span>
+							</p>
+							<p><span class="pf_Ex"></span></p>
+						</li>
+						<li>
+							<button class="basic_btn_r">
+								<a href="./portfolio.php">MY PORTFOLIO</a>
+							</button>
+						</li>
+					</ul>
+					<div class="pf_close contact_close">X</div>
+				</div>
 			</div>
 			<?php include "./layout/footer.php"?>
 		</div>

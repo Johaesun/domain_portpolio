@@ -1,0 +1,19 @@
+hmtl,body{width: 100%; height: 100%;}
+body{background: #def2ff; background-image: linear-gradient(to top right,#74c1ed 10%, #ffffff 65%, #1aafd0 125%); background-size: cover; background-repeat: no-repeat}
+/*section*/
+.section{padding-top: 8%}
+	.section form{background: rgba(255,255,255,0.8); width: 32.5%; height: 55vh; margin: 0 auto;}
+		.section .login_title{color: #1b2432; line-height: 45px;text-align: center; font-size: 2.5em; padding-top: 10%}
+		.section .input_wrap{width: 80%; margin: 0 auto; color: #b9bcc0; font-size: 0.8em;}
+			.input_wrap .line{position: relative; font-size: 24px; margin-top: 35px;text-align: center}
+				.input_wrap .line::before{background: #B9BCC0; content: ""; height: 1px; position: absolute; top: 50%; width: 45%; left: 0;}
+				.input_wrap .line::after{background: #B9BCC0; content: ""; height: 1px; position: absolute; top: 50%; width: 45%; right: 0;}
+			.input_wrap ul{padding-bottom: 10px;}
+				.input_wrap ul li{width: 100%; list-style: none;}
+					.input_wrap ul li input{width: 100%; height: 40px; border-radius: 3px; padding:0 10px; margin: 0 5px;}
+					.input_wrap ul li label{margin-left: 7px; display: block; padding: 11px 0px; font-size: 0.8em;}
+				.input_wrap .btn_login{cursor: pointer; color: #fff; background: #1aafd0; height: 40px; line-height: 40px; display: block; width: 15%; border-radius: 3px; float: right; text-align: center; margin-top: 22px; margin-bottom: 50px}
+					.input_wrap .btn_login:hover{background: #33d0f3; transition: 0.5s}
+.sign_in{float: right; font-size: 0.5em; color: #b9bcc0; border: none;}
+.sign_in a{color: #b9bcc0; border: none;}
+.sign_in:hover{font-weight: bold}

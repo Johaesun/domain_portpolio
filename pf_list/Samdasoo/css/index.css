@@ -1,0 +1,42 @@
+.noscroll{overflow: hidden;}
+.container{position: relative; max-width: 1920px; margin: 0 auto; width: 100%; height: auto;}
+.container h2{font-size: 40px; padding-bottom: 25px; margin-bottom: 10px; letter-spacing: 0.8px; line-height: 40px; margin-top: 30px;}
+.container .subText{padding: 0 20px; margin-bottom: 30px;}
+.container .more_btn{text-decoration: underline; margin-top: 20px; display: block; font-weight: bold; color: #fff; padding-bottom: 20px;}
+
+/*box01*/
+.box01{padding: 60px 0; text-align: center; min-height: 530px; background-color: #73bae5; color: #fff; opacity: 0.7}
+.box01_img{width: 450px; display: inline-block; margin: 20px auto 0 auto;}
+.box01_content{zoom:1; margin: 0 auto; display: inline-block;}
+.box01_content li{width: 160px;; height: 160px; border-radius: 50%; text-align: center; line-height: 150px; float: left; background-color: rgba( 255, 255, 255, 0.2 ); list-style: none; position: relative; z-index: 3}
+.box01_content li:nth-child(2){border: none; opacity: 1; background: none; font-size: 40px; height: auto; width: auto; margin: 0px 40px;}
+.box01_content li > p {z-index: 999; color:#fff}
+.wather_img{position: absolute; top: 212px; left: 0; right: 0; margin: 0 auto; width: 420px; height: 295px; opacity: 0.4; z-index:1}
+
+
+/*box02*/
+.box02{padding: 60px 0 100px 0; text-align: center; min-height: 850px; color: #666; background: url('../img/index_box2Bg.png')no-repeat; background-color: #93cbed; background-size: cover; height: 1085px}
+	.box02_subwrap{width: 100%; padding:80px 0px;}
+		.box02 > .more_btn{text-decoration: underline; margin-top: 20px; display: block; font-weight: bold; color: #666; padding-bottom: 20px;}
+	.box02 .img_hover{min-width: 55%; margin: 0 auto; height: 450px;}
+		.box02 .img_hover ul{width: 60%; min-width: 60%; height: 100%; margin: 0 auto;}
+			.box02 .img_hover ul li{list-style: none; float: left; width: 33%; height: 50%; margin:0.1%; opacity: 1;}
+				.box02 .img_hover ul li:first-child{background: url('../img/news1.jpg') no-repeat; background-size: cover}
+				.box02 .img_hover ul li:nth-child(2){background: url('../img/news2.jpg') no-repeat;background-size: cover}
+				.box02 .img_hover ul li:nth-child(3){background: url('../img/news3.jpg') no-repeat;background-size: cover}
+				.box02 .img_hover ul li:nth-child(4){background: url('../img/news4.jpg') no-repeat;background-size: cover}
+				.box02 .img_hover ul li:nth-child(5){background: url('../img/news5.jpg') no-repeat;background-size: cover}
+				.box02 .img_hover ul li:nth-child(6){background: url('../img/news6.jpg') no-repeat;background-size: cover}
+					.box02 .img_hover ul li a{width: 100%; height: 100%; display: block; line-height: 80px; opacity: 0;}
+						.box02 .img_hover ul li a:hover{background: rgba(225,225,225,0.5); color: #fff; opacity: 0.8; transition: 0.5s;}
+
+/*box03*/
+.box03{height: 500px;}
+	.box03 ul{zoom:1; width: 100%; height: 100%;}
+		.box03 ul li{width: 50%; height: 100%; float: left; list-style: none; }
+			.box03 ul li:first-child{background: url('../img/insta1_1.jpg') no-repeat center; background-size: cover}
+			.box03 ul li:last-child{background: url('../img/insta2_1.jpg') no-repeat center;background-size: cover}
+				.box03 ul li a{width: 100%; height: 100%; background-color: #def2ff ; display: block; opacity: 0.2;}
+					.box03 ul li a:hover{opacity: 0.8; transition:0.5s }
+				
+
